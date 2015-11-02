@@ -1,0 +1,9 @@
+body,html {
+  height:100%;
+}
+
+#container {
+  width:1280px;
+  height:720px;
+  border: 1px solid gray;
+}

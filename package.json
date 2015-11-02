@@ -1,0 +1,23 @@
+{
+  "name": "particles",
+  "version": "1.0.0",
+  "description": "JavaScript Particle System for viewsource conf",
+  "main": "src/",
+  "scripts": {
+    "test": "mocha --inline-diffs --check-leaks --ui tdd --reporter dot --recursive test",
+    "build": "browserify src/app.js -t babelify --outfile dist/app.js",
+    "watch": "watchify src/app.js --verbose -t babelify --outfile dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": " "
+  },
+  "author": "Jarrod Overson",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^4.7.16",
+    "babelify": "^5.0.4",
+    "browserify": "^9.0.3",
+    "watchify": "^2.6.2"
+  }
+}
